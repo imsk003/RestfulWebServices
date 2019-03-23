@@ -18,10 +18,10 @@ public class HelloWorldController {
 		return "Hello World";
 	}
 	
-	@GetMapping(path = "/hello-world-bean")
-	public HelloWorldBean SayHelloWorldBean() {
-		return new HelloWorldBean("Hello World");
-	}
+	//@GetMapping(path = "/hello-world-bean")
+	//public HelloWorldBean SayHelloWorldBean() {
+	//	return new HelloWorldBean("Hello World");
+	//}
 	
 	@GetMapping(path = "/hello-world-bean/{name}")
 	public HelloWorldBean SayHelloBeanVariable(@PathVariable String name) {
