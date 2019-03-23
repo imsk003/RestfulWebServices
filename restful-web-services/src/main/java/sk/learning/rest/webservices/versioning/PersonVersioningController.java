@@ -16,10 +16,10 @@ public class PersonVersioningController {
 		return new PersonV2(new Name("SK", "T"));
 	}
 	
-	@GetMapping(value="person/param", params="version=1")
-	public PersonV1 paramV1() {
-		return new PersonV1("SK");
-	}
+	//@GetMapping(value="person/param", params="version=1")
+	//public PersonV1 paramV1() {
+	//	return new PersonV1("SK");
+	//}
 	
 	@GetMapping(value="person/param", params="version=2")
 	public PersonV2 paramV2() {
