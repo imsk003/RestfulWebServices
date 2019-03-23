@@ -97,7 +97,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///C:\Users\SK\Desktop</url>
+         <url>file:///C:\Users\SK\.jenkins\workspace\RestfulWebServices\restful-web-services\target</url>
        </repository>
    </distributionManagement>
 </project>
